@@ -46,7 +46,7 @@ nav h3 .tech{
 }
 
 nav h3 .wave{
-    background: linear-gradient(0deg, #F7E93F, #FB09B4, #9100F8);
+    background: linear-gradient(20deg, #F7E93F, #FB09B4, #9100F8);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
