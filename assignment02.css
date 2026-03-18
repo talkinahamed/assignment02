@@ -1,0 +1,414 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:weight
+  font-style normal
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+
+header{
+    background-color:#1A0B2E ;
+}
+
+/* Nav */
+
+nav{
+    display: flex;
+    max-width: 1200px;
+    margin: 24px auto;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+nav h3{
+    font-size: 45px;
+    margin: 24px 0 24px 0;
+}
+nav h3 .tech{
+    color: white;
+}
+
+nav h3 .wave{
+    background: linear-gradient(0deg, #F7E93F, #FB09B4, #9100F8);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 32px;
+    
+}
+
+nav ul a{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: 150;
+}
+
+.btn1{
+    font-size: 1rem;
+    padding: 12.5px 16px 12.5px 16px;
+    border: none;
+    border-radius: 10000px;
+    color: white;
+    background: linear-gradient(20deg, #F7E93F, #FB09B4, #9100F8);
+    font-weight: 600;
+}
+
+/* Banner */
+
+.banner{
+    max-width: 100%;
+    height: 760px;
+    background-image: url('./assets/hero-circle.png'), url('./assets/hero-bg.png');
+    background-repeat: no-repeat, no-repeat;
+    background-size: 350px,cover;
+    background-position:center 80px, center;
+    margin: auto;
+    text-align: center;
+}
+
+.banner .new{
+    color: #1A0B2E;
+    background-color: #00FF88;
+    border-radius: 1000px;
+    box-shadow: 0 3px 27px 0 #00FF88;
+    padding: 8px 16px 8px 16px;
+    width: 38px;
+
+}
+
+.btn12{
+    font-size: 1rem;
+    padding: 12px 20px 12px 20px;
+    border: none;
+    border-radius: 10000px;
+    color: white;
+    background: linear-gradient(20deg, #F7E93F, #FB09B4, #9100F8);
+    font-weight: 500;
+    margin-right: 8px;
+}
+
+.banner .spotify{
+    width: 1rem;
+    margin-right: 8px;
+}
+
+.btn2{
+    font-size: 1rem;
+    padding: 12px 20px 12px 20px;
+    border: solid 2px #00FF88;
+    border-radius: 10000px;
+    color: #00FF88;
+    background-color: transparent;
+    font-weight: 500;
+}
+
+.banner .msg{
+    width: 20px;
+    margin-right: 9.11px;
+}
+
+.banner h1{
+    font-size: 60px;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.banner .mic{
+    width: 116.67px;
+    margin-bottom: 137.67px;
+    margin-top: 160px;
+}
+
+.banner p{
+    color: white;
+    font-weight: 150;
+    margin-bottom: 24px;
+}
+
+/* About the Podcast */
+
+.About{
+    background-color:#1A0B2E;
+    padding: 90px;
+
+
+}
+
+.about, .rating{
+    max-width: 100%;
+    width: 1200px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.rating{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about{
+    margin-bottom: 160px;
+    text-align: center;
+    
+}
+
+.about h1{
+    font-size: 48px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 16px;
+}
+
+.about .p2{
+    color: white;
+    font-weight: 150;
+    
+    
+}
+.about .p1{
+    color: white;
+    font-weight: 150;
+    margin-bottom: 80px;
+    line-height: 30px;
+}
+
+.rating div{
+    text-align: center;
+}
+
+.rating div h1{
+    color: #00FF88;
+    font-weight: 900;
+    font-size: 48px;
+    margin-bottom: 16px;
+}
+
+.rating div p, .card p{
+    color: white;
+    font-weight: 150;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+/* Why Choose */
+
+.Choose{
+    background-color: #230e3d;
+    padding: 120px 120px;
+}
+
+.Choose h2, .feature-container h2, .host-container h2{
+    font-size: 48px;
+    color: white;
+    font-weight: 600;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+.card{
+    background-color: #1A0B2E;
+    padding: 40px;
+    border-radius: 40px;
+}
+
+.card img{
+    margin-bottom: 16px;
+    width: 60px;
+}
+
+.card h3{
+    font-size: 24px;
+    color: white;
+    margin-bottom: 16px;
+    font-weight: 500;
+}
+
+.container{
+    
+    max-width: 1200px;
+    margin: 100%;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 380px);
+    grid-template-rows: repeat(3, 273px);
+    gap: 30px;
+}
+
+.card-wide{
+    grid-row: span 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-large{
+    grid-column: span 2;
+}
+
+/* Feature part */
+
+.feature{
+    background-color:#1A0B2E;
+    padding: 120px 120px;
+}
+
+.feature-container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;   
+}
+
+.card-container{
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+    margin-bottom: 120px;
+}
+
+.duration{
+    display: flex;
+}
+
+.duration h4{
+    color: #00FF88;
+    font-size: 16px;
+    font-weight: 450;
+}
+
+.duration img{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.cards{
+    width: 380px;
+    background-color: #230e3d;
+    border-radius: 40px;
+    overflow: hidden;
+}
+
+.content{
+    padding: 24px;
+
+}
+
+.content  h3{
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 12px;
+
+}
+
+.content p{
+    font-size: 16px;
+    color: white;
+    font-weight: 150;
+    line-height: 24px;
+    margin-bottom: 12px;
+}
+
+/* Host part */
+
+.host-container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.large-card img{
+    width: 200px;
+    height: 200px;
+    
+}
+
+.large-card{
+    display: flex;
+    gap: 24px;
+    padding: 40px;
+    background-color: #230e3d;
+    border-radius: 40px;
+    margin-top: 40px;
+}
+
+.large-icon{
+    display: flex;
+    gap: 8px;
+    margin-top: 16px;
+}
+
+.icon1, .icon2, .icon4, .icon3{
+    background-color: #230e3d;
+    border: solid #533C72 2px;
+    border-radius: 1000px;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.icon1 img{
+    width: 14.88px;
+    height: 14px;
+}
+
+.icon2 img{
+    width: 15.88px;
+    height: 15px;
+}
+
+.icon3 img{
+    width: 15.88px;
+    height: 15px;
+}
+
+.icon4 img{
+    width: 18.88px;
+    height: 18px;
+}
+
+.large-content h3{
+    font-size: 32px;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.large-content p{
+     font-size: 16px;
+    color: white;
+    font-weight: 150;
+    line-height: 24px;
+}
