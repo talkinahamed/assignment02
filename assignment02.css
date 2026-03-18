@@ -30,7 +30,6 @@ header{
 nav{
     display: flex;
     max-width: 1200px;
-    width: 100%;
     margin: 24px auto;
     justify-content: space-between;
     align-items: center;
@@ -91,6 +90,15 @@ nav ul a{
     background-position:center 80px, center;
     margin: auto;
     text-align: center;
+}
+
+.banner img {
+  transition: transform 0.45s ease-out;
+  cursor: pointer;
+}
+
+.banner img:hover {
+  transform: scale(1.30);
 }
 
 .banner .new{
@@ -461,4 +469,16 @@ footer h3{
     color: white;
     font-size: 16px;
     font-weight: 100;
+}
+
+.circle-logo {
+  background-image: url('./assets/hero-circle.png');
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.25s ease-out;
+  cursor: pointer;
+}
+
+.circle-logo:hover {
+  transform: scale(1.08);
 }
