@@ -30,6 +30,7 @@ header{
 nav{
     display: flex;
     max-width: 1200px;
+    width: 100%;
     margin: 24px auto;
     justify-content: space-between;
     align-items: center;
@@ -411,4 +412,53 @@ nav ul a{
     color: white;
     font-weight: 150;
     line-height: 24px;
+}
+
+/* footer */
+
+footer{
+    padding: 120px 0;
+    background-image: url('./assets/footer-bg.png');
+
+}
+
+.footer-container{
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+footer h3 .wave{
+    background: linear-gradient(0deg, #F7E93F, #FB09B4, #9100F8);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+footer h3 .tech{
+    color: white;
+}
+
+footer h3{
+    font-size: 80px;
+    margin-bottom: 32px;
+}
+
+.socials{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 32px;
+}
+
+.youtube, .twitter, .apple, .Spotify{
+    display: flex;
+    gap: 10px;
+}
+
+.socials h4, footer h4{
+    color: white;
+    font-size: 16px;
+    font-weight: 100;
 }
